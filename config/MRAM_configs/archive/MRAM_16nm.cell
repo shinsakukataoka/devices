@@ -1,0 +1,32 @@
+# MRAM_16nm.cell
+
+-MemCellType: MRAM
+
+# 0.0187 µm² at 16 nm:
+# F = 16 nm = 0.016 µm → F² = 0.000256 µm²
+# CellArea(F²) = 0.0187 / 0.000256 ≈ 73
+-CellArea (F^2): 73
+-CellAspectRatio: 0.60
+
+-ResistanceOn (ohm): 4000
+-ResistanceOff (ohm): 8000
+
+-ReadMode: current
+-ReadVoltage (V): 0.25
+-MinSenseVoltage (mV): 25
+-ReadPower (uW): 25
+
+-ResetMode: current
+-ResetCurrent (uA): 40
+-ResetPulse (ns): 20
+-ResetEnergy (pJ): 0.4
+
+-SetMode: current
+-SetCurrent (uA): 40
+-SetPulse (ns): 20
+-SetEnergy (pJ): 0.4
+
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.15
+-AccessCMOSWidth (F): 7
+

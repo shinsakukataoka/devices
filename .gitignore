@@ -1,0 +1,15 @@
+notebook/
+NVM-models/
+NVSim/
+results/
+README.md
+
+scripts/*
+!scripts/run_cache_sweep.sh
+!scripts/run_cache_sweep.sbatch
+
+config/*
+!config/MRAM_configs/
+!config/SRAM_configs/
+!config/MRAM_configs/**
+!config/SRAM_configs/**
