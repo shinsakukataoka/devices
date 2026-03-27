@@ -3,7 +3,7 @@
 #SBATCH --partition=cpu-dense-preempt-q
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=16
+#SBATCH --cpus-per-task=64
 #SBATCH --time=08:00:00
 #SBATCH --output=cache_sweep_%j.out
 #SBATCH --error=cache_sweep_%j.err
